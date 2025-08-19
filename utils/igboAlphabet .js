@@ -40,7 +40,7 @@ import jiri from "../images/igbo/jiri.png";
 import juo from "../images/igbo/ask.png";
 import jee from "../images/igbo/go.png";
 import kpo from "../images/igbo/call.png";
-import kwu from "../images/igbo/stop.png";
+import kwu from "../images/igbo/stop(1).png";
 import kpoo from "../images/igbo/name(2).png";
 import kpu from "../images/igbo/carve.png";
 import kw from "../images/igbo/stand.png";
@@ -48,6 +48,47 @@ import kwupu from "../images/igbo/remove.png";
 import luo from "../images/igbo/marry.png";
 import leta from "../images/igbo/visit.png";
 import le from "../images/igbo/look.png";
+import akara from '../assets/akara.png';
+import birth from '../images/Igbo/patting.png'
+import learn from '../images/Igbo/study.png'
+import toDO from '../images/Igbo/to-do-list.png'
+import and from '../images/Igbo/handle-with-care.png'
+import give from '../images/Igbo/payment.png'
+import stay from '../images/Igbo/business.png'
+import child from '../images/Igbo/playtime.png'
+import father from '../images/Igbo/father.png'
+import mother from '../images/Igbo/mother.png'
+import fire from '../images/Igbo/fire.png'
+import speed from '../images/Igbo/speed.png'
+import help from '../images/Igbo/help.png'
+import time from  '../images/Igbo/clock.png'
+import many from '../images/Igbo/crowd-of-users.png'
+import leave from '../images/Igbo/exit.png'
+import press from '../images/Igbo/press-button.png'
+import white from '../images/Igbo/white.png'
+import paint from '../images/Igbo/paint-palette.png'
+import eat from '../images/Igbo/eat.png'
+import reach from '../images/Igbo/fruit.png'
+import speak from '../images/Igbo/speak.png'
+import ball from '../images/Igbo/ball.png'
+import drink from '../images/Igbo/dink-water.png'
+import show from '../images/Igbo/talent-hunt.png'
+import put from '../images/Igbo/person.png'
+import count from '../images/Igbo/account.png'
+import house from '../images/Igbo/house.png'
+import morning from '../images/Igbo/morning.png'
+import road from '../images/Igbo/road.png'
+import world from '../images/Igbo/earth.png'
+import answer from '../images/Igbo/phone.png'
+import children from '../images/Igbo/children.png'
+import carry from '../images/Igbo/box.png'
+import bring from '../images/Igbo/bring.png'
+import build from '../images/Igbo/puzzle.png'
+import wear from '../images/Igbo/wearing.png'
+// import avoid from '../images/Igbo/stop.png'
+import send from '../images/Igbo/mail.png'
+
+
 
 const igboAlphabet = [
   {
@@ -264,13 +305,15 @@ const igboAlphabet = [
     culturalContext:
       "The “L” consonant is soft and common in polite or descriptive terms.",
   },
+
+
   {
     letter: "M",
     pronunciation: "/m/",
     examples: [
-      { word: "Mee", meaning: "Do", image: akara },
-      { word: "Mụọ", meaning: "Give birth/Learn", image: akara },
-      { word: "Mụta", meaning: "Learn", image: akara },
+      { word: "Mee", meaning: "Do", image: toDO },
+      { word: "Mụọ", meaning: "Give birth/Learn", image: birth },
+      { word: "Mụta", meaning: "Learn", image: learn }
     ],
     practiceOptions: ["M", "N", "B"],
     culturalContext:
@@ -280,9 +323,9 @@ const igboAlphabet = [
     letter: "N",
     pronunciation: "/n/",
     examples: [
-      { word: "Na", meaning: "And/With", image: akara },
-      { word: "Nye", meaning: "Give", image: akara },
-      { word: "Nọ", meaning: "Stay", image: akara },
+      { word: "Na", meaning: "And/With", image: and },
+      { word: "Nye", meaning: "Give", image: give },
+      { word: "Nọ", meaning: "Stay", image: stay }
     ],
     practiceOptions: ["N", "M", "L"],
     culturalContext: "The nasal “N” is fundamental in Igbo sentence structure.",
@@ -291,9 +334,9 @@ const igboAlphabet = [
     letter: "NW",
     pronunciation: "/nʷ/",
     examples: [
-      { word: "Nwa", meaning: "Child", image: akara },
-      { word: "Nwoke", meaning: "Man", image: akara },
-      { word: "Nwanyi", meaning: "Woman", image: akara },
+      { word: "Nwa", meaning: "Child", image: child },
+      { word: "Nwoke", meaning: "Man", image: father },
+      { word: "Nwanyi", meaning: "Woman", image: mother }
     ],
     practiceOptions: ["NW", "N", "W"],
     culturalContext:
@@ -303,9 +346,9 @@ const igboAlphabet = [
     letter: "NY",
     pronunciation: "/ɲ/",
     examples: [
-      { word: "Nye", meaning: "Give", image: akara },
-      { word: "Nya", meaning: "Him/Her", image: akara },
-      { word: "Nyere", meaning: "Help", image: akara },
+      { word: "Nye", meaning: "Give", image: give },
+      { word: "Nya", meaning: "Him/Her", image: mother },
+      { word: "Nyere", meaning: "Help", image: help }
     ],
     practiceOptions: ["NY", "N", "Y"],
     culturalContext:
@@ -315,9 +358,9 @@ const igboAlphabet = [
     letter: "O",
     pronunciation: "/o/",
     examples: [
-      { word: "Ọkụ", meaning: "Fire", image: akara },
-      { word: "Oge", meaning: "Time", image: akara },
-      { word: "Ọsọ", meaning: "Speed", image: akara },
+      { word: "Ọkụ", meaning: "Fire", image: fire },
+      { word: "Oge", meaning: "Time", image: time },
+      { word: "Ọsọ", meaning: "Speed", image: speed }
     ],
     practiceOptions: ["O", "Ọ", "U"],
     culturalContext:
@@ -327,9 +370,9 @@ const igboAlphabet = [
     letter: "Ọ",
     pronunciation: "/ɔ/",
     examples: [
-      { word: "Ọtụtụ", meaning: "Many", image: akara },
-      { word: "Ọkụ", meaning: "Fire", image: akara },
-      { word: "Ọcha", meaning: "White", image: akara },
+      { word: "Ọtụtụ", meaning: "Many", image: many },
+      { word: "Ọkụ", meaning: "Fire", image: fire },
+      { word: "Ọcha", meaning: "White", image: white }
     ],
     practiceOptions: ["Ọ", "O", "U"],
     culturalContext: "“Ọ” is an open-mid back rounded vowel unique to Igbo.",
@@ -338,9 +381,9 @@ const igboAlphabet = [
     letter: "P",
     pronunciation: "/p/",
     examples: [
-      { word: "Pịa", meaning: "Press", image: akara },
-      { word: "Pụọ", meaning: "Leave", image: akara },
-      { word: "Pụta", meaning: "Come out", image: akara },
+      { word: "Pịa", meaning: "Press", image: press },
+      { word: "Pụọ", meaning: "Leave", image: leave },
+      { word: "Pụta", meaning: "Come out", image: leave }
     ],
     practiceOptions: ["P", "B", "F"],
     culturalContext: "“P” is sharp and often used in commands.",
@@ -349,9 +392,9 @@ const igboAlphabet = [
     letter: "R",
     pronunciation: "/ɾ/",
     examples: [
-      { word: "Rie", meaning: "Eat", image: akara },
-      { word: "Ruo", meaning: "Reach", image: akara },
-      { word: "Rapu", meaning: "Leave", image: akara },
+      { word: "Rie", meaning: "Eat", image: eat },
+      { word: "Ruo", meaning: "Reach", image: reach },
+      { word: "Rapu", meaning: "Leave", image: leave   }
     ],
     practiceOptions: ["R", "L", "D"],
     culturalContext:
@@ -361,9 +404,9 @@ const igboAlphabet = [
     letter: "S",
     pronunciation: "/s/",
     examples: [
-      { word: "Sọ", meaning: "Tell", image: akara },
-      { word: "Sụ", meaning: "Speak", image: akara },
-      { word: "Sere", meaning: "Paint", image: akara },
+      { word: "Sọ", meaning: "Tell", image: speak },
+      { word: "Sụ", meaning: "Speak", image: speak },
+      { word: "Sere", meaning: "Paint", image: paint }
     ],
     practiceOptions: ["S", "SH", "Z"],
     culturalContext:
@@ -373,9 +416,9 @@ const igboAlphabet = [
     letter: "SH",
     pronunciation: "/ʃ/",
     examples: [
-      { word: "Sha", meaning: "Drink", image: akara },
-      { word: "She", meaning: "She (loan)", image: akara },
-      { word: "Shọ", meaning: "Show (loan)", image: akara },
+      { word: "Sha", meaning: "Drink", image: drink },
+      { word: "She", meaning: "She (loan)", image: mother },
+      { word: "Shọ", meaning: "Show (loan)", image: show }
     ],
     practiceOptions: ["SH", "S", "CH"],
     culturalContext:
@@ -385,9 +428,9 @@ const igboAlphabet = [
     letter: "T",
     pronunciation: "/t/",
     examples: [
-      { word: "Tụọ", meaning: "Throw", image: akara },
-      { word: "Tinye", meaning: "Put inside", image: akara },
-      { word: "Tụọ ọnụ", meaning: "Count", image: akara },
+      { word: "Tụọ", meaning: "Throw", image: ball },
+      { word: "Tinye", meaning: "Put inside", image: put },
+      { word: "Tụọ ọnụ", meaning: "Count", image: count }
     ],
     practiceOptions: ["T", "D", "N"],
     culturalContext: "“T” is a crisp sound used in many imperative verbs.",
@@ -396,9 +439,9 @@ const igboAlphabet = [
     letter: "U",
     pronunciation: "/u/",
     examples: [
-      { word: "Ụlọ", meaning: "House", image: akara },
-      { word: "Ụtụtụ", meaning: "Morning", image: akara },
-      { word: "Ụzọ", meaning: "Road", image: akara },
+      { word: "Ụlọ", meaning: "House", image: house },
+      { word: "Ụtụtụ", meaning: "Morning", image: morning },
+      { word: "Ụzọ", meaning: "Road", image: road }
     ],
     practiceOptions: ["U", "Ụ", "O"],
     culturalContext:
@@ -408,9 +451,9 @@ const igboAlphabet = [
     letter: "Ụ",
     pronunciation: "/ʊ/",
     examples: [
-      { word: "Ụzọ", meaning: "Road", image: akara },
-      { word: "Ụmụ", meaning: "Children", image: akara },
-      { word: "Ụwa", meaning: "World", image: akara },
+      { word: "Ụzọ", meaning: "Road", image: road },
+      { word: "Ụmụ", meaning: "Children", image: children },
+      { word: "Ụwa", meaning: "World", image: world }
     ],
     practiceOptions: ["Ụ", "U", "O"],
     culturalContext: "“Ụ” is a close back rounded vowel unique to Igbo.",
@@ -419,9 +462,9 @@ const igboAlphabet = [
     letter: "V",
     pronunciation: "/v/",
     examples: [
-      { word: "Veta", meaning: "Answer", image: akara },
-      { word: "Vọta", meaning: "Select", image: akara },
-      { word: "Vụrụ", meaning: "Carried", image: akara },
+      { word: "Veta", meaning: "Answer", image: answer },
+      { word: "Vọta", meaning: "Select", image: count },
+      { word: "Vụrụ", meaning: "Carried", image: carry }
     ],
     practiceOptions: ["V", "B", "F"],
     culturalContext:
@@ -431,9 +474,9 @@ const igboAlphabet = [
     letter: "W",
     pronunciation: "/w/",
     examples: [
-      { word: "Weta", meaning: "Bring", image: akara },
-      { word: "Wulite", meaning: "Build", image: akara },
-      { word: "Were", meaning: "Take", image: akara },
+      { word: "Weta", meaning: "Bring", image: bring },
+      { word: "Wulite", meaning: "Build", image: build },
+      { word: "Were", meaning: "Take", image: give }
     ],
     practiceOptions: ["W", "V", "U"],
     culturalContext: "“W” is a glide sound used in verbs of action.",
@@ -442,9 +485,9 @@ const igboAlphabet = [
     letter: "Y",
     pronunciation: "/j/",
     examples: [
-      { word: "Yiri", meaning: "Wear", image: akara },
-      { word: "Yie", meaning: "Wear/Put on", image: akara },
-      { word: "Yiri akwa", meaning: "Wear clothes", image: akara },
+      { word: "Yiri", meaning: "Wear", image: wear },
+      { word: "Yie", meaning: "Wear/Put on", image: wear },
+      { word: "Yiri akwa", meaning: "Wear clothes", image: wear }
     ],
     practiceOptions: ["Y", "I", "J"],
     culturalContext:
@@ -454,9 +497,9 @@ const igboAlphabet = [
     letter: "Z",
     pronunciation: "/z/",
     examples: [
-      { word: "Zụta", meaning: "Buy", image: akara },
-      { word: "Ziga", meaning: "Send", image: akara },
-      { word: "Zọ", meaning: "Avoid", image: akara },
+      { word: "Zụta", meaning: "Buy", image: give },
+      { word: "Ziga", meaning: "Send", image: send },
+      { word: "Zọ", meaning: "Avoid", image: "" }
     ],
     practiceOptions: ["Z", "S", "J"],
     culturalContext:
