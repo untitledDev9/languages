@@ -1,4 +1,5 @@
 import water from "../images/igbo/wateri.jpg";
+// import water from "../images/igbo/wateri.jpg";
 import house from '../images/igbo/housei.jpg'
 import food from '../images/igbo/foodii.jpg'
 import book from '../images/igbo/booki.jpg'
